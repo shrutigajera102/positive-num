@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: aliceblue;
+    width: 50%;
+    height: 40vh;
+    text-align: center;
+    margin: 100px;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.bt {
+    width: 10%;
+    height: 5vh;
+    border-radius: 5px;
+}
+#num{
+    width: 180px;
+    height: 20px;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}

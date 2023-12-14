@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>NUMBER SIGN CHECKER</h1>
+        <label for="num">Enter a number : </label>
+        <input id="num" type="text">
+        <button class="bt" onclick="checker()">click</button>
+        <h2 id="result"></h2>
+    </div>
+
+
+    <script>
+
+function checker(){
+    var userInput = document.getElementById("num").value;
+    var number = parseFloat(userInput);
+    var sign;
+            if (number > 0) {
+                sign = "positive";
+            } else if (number < 0) {
+                sign = "negative";
+            } else {
+                sign = "zero";
+            }
+            var resultElement = document.getElementById("result");
+            console.log(resultElement);
+            resultElement.innerHTML = "The entered number is " + sign + ".";
+}
+
+
+    </script>
+
+
+
+
+</body>
+</html> 
+
+
+
+
